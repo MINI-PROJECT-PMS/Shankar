@@ -1,0 +1,25 @@
+body
+{
+    background-color: lightgreen;
+}
+.one
+{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-evenly;
+}
+.two
+{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+.two a
+{
+    text-decoration: none;
+    color: black;
+}
+.two a:hover
+{
+    color: white;
+}
