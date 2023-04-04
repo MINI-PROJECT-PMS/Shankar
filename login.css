@@ -1,0 +1,119 @@
+
+.st
+{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 750px;
+    width: 350px;
+    height: 450px;
+}
+.login
+{
+    width: 380px;
+    height: 340px;
+
+    padding: 35px;
+    background-color: aliceblue;
+    border-radius: 25px ;
+    position: absolute;
+}
+#Uname
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+#Pass
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+}
+#log:hover
+{
+    cursor: pointer;
+}
+span
+{
+    color: black;
+    font-size: 17px;
+}
+.user
+{
+    text-align: center;
+}
+.fa
+{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 750px;
+    width: 350px;
+    height: 450px;
+}
+.falogin
+{
+    width: 380px;
+    height: 340px;
+    overflow: hidden;
+    padding: 35px;
+    background-color: rgb(48, 69, 87);
+    border-radius: 25px ;
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+}
+#faUname
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#faPass
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#falog
+{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 7px;
+    color: black;
+}
+span
+{
+    color: black;
+    font-size: 17px;
+}
+.user
+{
+    text-align: center;
+}
+.hidden
+{
+    display: none;
+}
+.stud
+{
+    cursor: pointer;
+}
