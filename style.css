@@ -10,7 +10,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+  overflow: hidden;
 }
 h1
 {
@@ -75,20 +75,21 @@ ul li ul li{
 ul li:hover ul li{
     display: block;
 }
-.log
+.log1
 {
 position: absolute;
+margin-top: 380px;
     margin-left: 1390px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color: aliceblue;
+   background-color: transparent;
     gap: 5%;
     width: 50px;
     height: 280px;
     text-align: center;
 }
-.log:hover
+.log1 a:hover
 {
-    background-color: aqua;
+    background-color: rgb(16, 24, 24);
 }
