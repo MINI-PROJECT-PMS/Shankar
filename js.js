@@ -20,13 +20,15 @@ nav.addEventListener('click',function(e)
     }
 })
 const body =document.querySelector('.close1');
-body.addEventListener('click',function(){
+body.addEventListener('click',function(e){
+console.log(e.target)
     login2.classList.add('hidden');
     login1.classList.add('hidden');
     console.log("hi");
     
 })
-const body1 =document.querySelector('.close');
+
+const body1 =document.querySelector('.close2');
 body1.addEventListener('click',function(){
     login2.classList.add('hidden');
     login1.classList.add('hidden');
