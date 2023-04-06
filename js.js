@@ -12,7 +12,6 @@ nav.addEventListener('click',function(e)
     {
         login2.classList.add('hidden');
      login1.classList.remove('hidden');
-     console.log("h")
     }
     if(e.target.classList.contains('faculty'))
     {
@@ -22,7 +21,12 @@ nav.addEventListener('click',function(e)
 })
 const body =document.querySelector('.body');
 body.addEventListener('click',function(e){
-    if(e.target.classList.contains('hi')) return;
+    console.log(e.target);
+    if(e.target.classList.contains('hi')) {
+       
+    }
+    else{
     login2.classList.add('hidden');
     login1.classList.add('hidden');
+    }
 })

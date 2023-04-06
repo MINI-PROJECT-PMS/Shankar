@@ -1,21 +1,21 @@
 
-.st
-{
-    position: absolute;
+ .hello{
+    /* position: absolute; */
     margin-top: 105px;
     margin-left: 750px;
     width: 350px;
     height: 450px;
-}
+ }  
 .login
 {
     width: 380px;
     height: 340px;
-
+    overflow: hidden;
     padding: 35px;
-    background-color: aliceblue;
+    background-color: rgb(189, 197, 204);
     border-radius: 25px ;
-    position: absolute;
+    /* position: absolute; */
+    font-family: 'Times New Roman', Times, serif;
 }
 #Uname
 {
@@ -56,14 +56,14 @@ span
 {
     text-align: center;
 }
-.fa
+/* .fa
 {
     position: absolute;
     margin-top: 105px;
     margin-left: 750px;
     width: 350px;
     height: 450px;
-}
+} */
 .falogin
 {
     width: 380px;
@@ -72,7 +72,7 @@ span
     padding: 35px;
     background-color: rgb(48, 69, 87);
     border-radius: 25px ;
-    position: absolute;
+    /* position: absolute; */
     font-family: 'Times New Roman', Times, serif;
 }
 #faUname
