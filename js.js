@@ -19,14 +19,17 @@ nav.addEventListener('click',function(e)
      login2.classList.remove('hidden');
     }
 })
-const body =document.querySelector('.body');
-body.addEventListener('click',function(e){
-    console.log(e.target);
-    if(e.target.classList.contains('hi')) {
-       
-    }
-    else{
+const body =document.querySelector('.close1');
+body.addEventListener('click',function(){
     login2.classList.add('hidden');
     login1.classList.add('hidden');
-    }
+    console.log("hi");
+    
+})
+const body1 =document.querySelector('.close');
+body1.addEventListener('click',function(){
+    login2.classList.add('hidden');
+    login1.classList.add('hidden');
+    console.log("hi");
+    
 })

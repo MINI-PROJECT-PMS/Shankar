@@ -5,6 +5,7 @@
     margin-left: 750px;
     width: 350px;
     height: 450px;
+    cursor: pointer;
  }  
 .login
 {
@@ -99,6 +100,7 @@ span
     border-radius: 17px;
     padding-left: 7px;
     color: black;
+    cursor: pointer;
 }
 span
 {
